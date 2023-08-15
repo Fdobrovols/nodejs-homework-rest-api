@@ -7,6 +7,7 @@ const updateSubscription = require('./updateSubscription');
 const { ctrlWraper } = require('../../helpers');
 const updateAvatar = require('./updateAvatar');
 
+
 module.exports = {
     register: ctrlWraper(register),
     login: ctrlWraper(login),
@@ -14,4 +15,5 @@ module.exports = {
     logout: ctrlWraper(logout),
     updateSubscription: ctrlWraper(updateSubscription),
     updateAvatar: ctrlWraper(updateAvatar),
+    
 };
